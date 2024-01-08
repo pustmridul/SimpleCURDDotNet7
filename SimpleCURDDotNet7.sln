@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCURDDotNet7", "SimpleCURDDotNet7\SimpleCURDDotNet7.csproj", "{5C061B84-540D-45AE-BE0C-3FCB8AEE33A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C061B84-540D-45AE-BE0C-3FCB8AEE33A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C061B84-540D-45AE-BE0C-3FCB8AEE33A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C061B84-540D-45AE-BE0C-3FCB8AEE33A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C061B84-540D-45AE-BE0C-3FCB8AEE33A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DE110A7-CD9C-4EB8-8FE8-43E64EE75AE3}
+	EndGlobalSection
+EndGlobal
