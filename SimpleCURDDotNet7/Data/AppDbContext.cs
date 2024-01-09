@@ -12,8 +12,24 @@ namespace SimpleCURDDotNet7.Data
             }
 
             public DbSet<Product> Products { get; set; }
+
+            public DbSet<UserInfo> UserInfos { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<UserInfo>().HasData(new UserInfo
+            {
+                Id=1,
+                UserName = "test",
+                Password = "1234",
+                CreateByName="System",
+                CreateDate=DateTime.UtcNow
+            });
         }
-        public class BloggingContextFactory : IDesignTimeDbContextFactory<AppDbContext>
+
+    }
+    public class BloggingContextFactory : IDesignTimeDbContextFactory<AppDbContext>
         {
             public AppDbContext CreateDbContext(string[] args)
             {
