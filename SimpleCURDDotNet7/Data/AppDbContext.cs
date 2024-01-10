@@ -12,13 +12,15 @@ namespace SimpleCURDDotNet7.Data
             }
 
             public DbSet<Product> Products { get; set; }
+            public DbSet<Employee> Employees { get; set; }
+
         }
         public class BloggingContextFactory : IDesignTimeDbContextFactory<AppDbContext>
         {
             public AppDbContext CreateDbContext(string[] args)
             {
                 var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=123456;Database=ProductDb;");
+                optionsBuilder.UseNpgsql("Host=localhost;Port=5433;Username=postgres;Password=123;Database=ProductDb;");
 
 
                 return new AppDbContext(optionsBuilder.Options);

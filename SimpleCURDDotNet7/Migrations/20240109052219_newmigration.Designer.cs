@@ -12,8 +12,8 @@ using SimpleCURDDotNet7.Data;
 namespace SimpleCURDDotNet7.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240108163800_2024-01-08")]
-    partial class _20240108
+    [Migration("20240109052219_newmigration")]
+    partial class newmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
