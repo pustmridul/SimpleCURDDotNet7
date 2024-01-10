@@ -38,7 +38,6 @@ namespace SimpleCURDDotNet7.Services
                 await _dbcontextobj.SaveChangesAsync();
                 return true;
 
-
             }
             catch(Exception e)
             {
